@@ -4,7 +4,7 @@
 
 // I AM NOT DONE
 
-fn non_null_ref(/**/ mut /**/ v: &i32) -> &i32 {
+fn non_null_ref(v: &i32) -> &i32 {
     if *v == 0 {
         let b = 1;
         v = &b;
