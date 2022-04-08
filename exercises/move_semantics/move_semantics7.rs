@@ -1,7 +1,7 @@
 // move_semantics7.rs
 // Make me compile and run without error !
 // You can't declare new variable
-// Use `rustlings hint move_semantics8` for hints
+// Use `rustlings hint move_semantics7` for hints
 
 // I AM NOT DONE
 
