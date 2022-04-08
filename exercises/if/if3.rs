@@ -6,9 +6,9 @@
 // I AM NOT DONE
 
 fn compute_fees(price: i32) -> i32 {
-    let fees: i32; // (mut not allowed)
+    let fees: i32; // (neither mut nor initialization allowed here)
     // * fees for price price lower than 10 is 1
-    // * fees for price higher than 10 is 10% rounded down (use / 10)
+    // * fees for price higher than 10 are 10% rounded down (use / 10)
     // don't change before that line
     if price < 10 {
         fees = 1;
